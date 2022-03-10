@@ -1,2 +1,1 @@
-# scripts that id like to have access to from any machine
-
+# A repo containing scripts and config files that I might want on any machine
