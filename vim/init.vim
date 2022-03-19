@@ -20,16 +20,21 @@ Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
 Plug 'tmsvg/pear-tree' "bracket completion
 Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
 
+Plug 'tribela/vim-transparent'
+
+
 call plug#end()
 
 nmap <F12> :TagbarToggle<CR>
 
 :set completeopt-=preview " For No Previews
 
-" :colorscheme sonokai 
+
+
+:colorscheme sonokai 
 " :colorscheme minimalist 
 " :colorscheme onedark 
-:colorscheme afterglow 
+" :colorscheme afterglow 
 
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
