@@ -6,6 +6,11 @@
 :set softtabstop=4
 :set mouse=a
 
+
+"This unsets the "last search pattern" register by hitting return
+nnoremap <CR> :noh<CR><CR>
+
+
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
@@ -19,8 +24,12 @@ Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
 Plug 'tmsvg/pear-tree' "bracket completion
 Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
+Plug 'tribela/vim-transparent' " transparent
 
-Plug 'tribela/vim-transparent'
+" typescript stuff
+" Plug 'neovim/nvim-lspconfig'
+" Plug 'jose-elias-alvarez/null-ls.nvim'
+" Plug 'jose-elias-alvarez/nvim-lsp-ts-utils'
 
 
 call plug#end()
